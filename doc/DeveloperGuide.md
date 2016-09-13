@@ -21,7 +21,7 @@
 #### Importing the project into Eclipse
 
 0. Fork this repo, and clone the fork to your computer
-1. Open Eclipse (Note: Ensure you have installed the **e(fx)clipse plugin** as given in the prerequisites above)
+1. Open Eclipse (Note: Ensure you have installed the **e(fx)clipse plugin** as given in the prerequisites above)		
 2. Click `File` > `Import`
 3. Click `General` > `Existing Projects into Workspace` > `Next`
 4. Click `Browse`, then locate the project's directory
