@@ -75,6 +75,28 @@ Use case ends.
 > 3a1. AddressBook shows an error message <br>
   Use case resumes at step 2
 
+#### Use case: Edit Tag
+  
+ **MSS** 
+
+1. User requests to edit tag of person.
+2. AddressBook displays person and existing tag.
+3. User requests to change tag e.g 'friends' to 'buddies'
+4. AddressBook asks for confirmation of change tag.
+5. User confirms with 'Y'.
+6. AddressBook changes tag of person <br>
+ 
+ **Extensions**
+  
+2a. Person not found
+ 
+> Use case ends
+ 
+5a. User inputs N.
+ 
+> AddressBook shows an error message <br>
+ 	Use case resumes at step 2.
+ 
 ## Appendix C : Non Functional Requirements
 
 1. Should work on any [mainstream OS](#mainstream-os) as long as it has Java 8 or higher installed.
